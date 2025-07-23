@@ -79,7 +79,9 @@ body{
     font-size: medium;
     margin-top: 60px;
    margin-bottom: 0;
-   background-image:url(blur.png);
+    background-image: url("blur.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #form{
       margin-top: 130px;
@@ -110,9 +112,12 @@ textarea{
     padding: 8px 0;
 }
 }
-#blur{
-    background-image: url(blur.png);
-    
+#blur {
+  background-image: url("blur.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 }
 #backimagebook img{
     height:80px;
