@@ -45,6 +45,10 @@ body{
 #main-home{
     margin-top: 120px;
     
+    
+    
+   
+    
 }
 #bottom{
     position: fixed;
@@ -75,12 +79,11 @@ body{
     font-size: medium;
     margin-top: 60px;
    margin-bottom: 0;
-    background-image: url("blur.png");
+   background-image:url(blur.png) ;
 }
 #form{
       margin-top: 130px;
       margin-bottom: 40px;
-}
       /*===========================FORM=======================================*/
 input{
     width: 100%;
@@ -106,10 +109,18 @@ textarea{
     margin: 12px 0;
     padding: 8px 0;
 }
-
-#blur {
-  background-image: url("blur.png");
-  
+}
+#blur{
+    background-image: url(blur.png);
+    
+}
+#backimagebook img{
+    height:80px;
+    position:inherit ;
+}
+#services-tab{
+    margin-top: 120px;
+    margin-bottom: 40px;
 }
 
 
