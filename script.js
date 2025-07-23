@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("booking-form").addEventListener("submit", function(e) {
     e.preventDefault();
 
-    emailjs.sendForm("service_cigdv4h", "template_udfe2du", this)
+   emailjs.sendForm("service_cigdv4h", "template_udfe2du", this, "_f7rpr-47rPC5g5nn")
       .then(() => {
         alert("Booking sent! Sharon will contact you soon.");
         this.reset();
