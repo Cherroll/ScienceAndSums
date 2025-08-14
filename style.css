@@ -56,13 +56,17 @@ main {
     font-family: 'Times New Roman', serif;
     font-weight: 300;
     font-size: medium;
+      min-height: 100vh; 
 }
 
 /* SERVICES */
 #services-tab {
-    background-image: url(blur.png);
-    background-size: cover;
+    background-image: url('blur.png');
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    min-height: 100vh;            
 }
+
 
 /* FORM */
 #form input,
@@ -115,13 +119,8 @@ main {
     }
 #backimagebook img {
 
-    height: 40px;     
-    display: inline-block;
-    vertical-align: middle; 
-    margin: 0; 
-    display: flex; 
-    gap: 20px; 
-    width:30% ;
+    height:80px;
+    position:inherit;
 }
 
 
