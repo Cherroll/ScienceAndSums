@@ -31,26 +31,24 @@ body {
     background-color: darkgreen;
 }
 
-#tabs-top a {
-    float: left;
-    display: block;
-    width: 25%;
-    height: 40px;
-    font-weight: 700;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    line-height: 40px;
-}
+#tabs-top a{
+ float: left;
+ display: block;
+ width: 25%;
+ height: 35px;
+ font-weight: 700;
+ color: white;
+ text-align: center;
+ text-decoration: none;
+ padding-top: 12px;
+ }
 
-/* MAIN CONTENT */
-main {
-    flex: 1;
-    padding: 140px 20px 60px;
-    background-image: url(blur.png);
-    background-size: cover;
-}
 
+/* MAIN */
+#main-home{
+ margin-top: 120px;
+}
+ 
 /* ABOUT */
 #aboutid {
     font-family: 'Times New Roman', serif;
