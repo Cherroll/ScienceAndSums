@@ -4,7 +4,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* makes page fill full height */
+    min-height: 100vh;
 }
 
 /* HEADER */
@@ -46,7 +46,7 @@ body {
 /* MAIN CONTENT */
 main {
     flex: 1;
-    padding: 140px 20px 60px; /* enough padding to clear fixed header & footer */
+    padding: 140px 20px 60px;
     background-image: url(blur.png);
     background-size: cover;
 }
@@ -113,5 +113,17 @@ main {
     #tabs-top a {
         width: 50%;
     }
+#backimagebook img {
+    max-width: 150px;
+    height: auto;     
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0; 
+     display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+
 }
 
