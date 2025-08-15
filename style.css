@@ -44,6 +44,8 @@
  /*===========================MAIN-HOME================================*/
  #main-home{
  margin-top: 120px;
+  margin-left:0;
+  margin-right:0;
  
  
  
@@ -80,6 +82,8 @@
  margin-top: 60px;
  margin-bottom: 0;
  background-image:url(blur.png) ;
+  margin-left:0;
+  margin-right:0;
  }
  #form{
  margin-top: 130px;
@@ -129,8 +133,5 @@
  position:inherit;
  
  }
- #services-tab{
- margin-top: 120px;
- margin-bottom: 40px;
- }
+ 
 
