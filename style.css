@@ -81,7 +81,7 @@
  font-size: medium;
  margin-top: 60px;
  margin-bottom: 0;
- background-image:url(blur.png) ;
+ background-image:url(blur.png) width:100% ;
   margin-left:0;
   margin-right:0;
  }
@@ -115,7 +115,8 @@
  }
  }
  #blur{
- background-image: url(blur.png);
+ background-image: url(blur.png) width:100%;
+  
  
  }
  #backimagebook img{
