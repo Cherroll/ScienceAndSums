@@ -137,15 +137,15 @@
     margin-top: 120px;
     margin-bottom: 40px;
     }
-    /* Make sure to include this in a <style> tag or a linked CSS file */
+   
 
 #services-tab {
     position: relative;
     z-index: 2;
-    color: white; /* Change as needed for visibility */
+    color: white;
     padding: none;
     margin: none;
-    background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for readability */
+    background: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -165,7 +165,7 @@ html, body {
     width: 100%;
 }
 
-/* Only About page background */
+
 #services-tab {
     min-height: 100vh; 
     background-image: url("blur.png");
