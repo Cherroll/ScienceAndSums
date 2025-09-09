@@ -74,25 +74,31 @@
     }
     
     
-    #aboutid{
-    font-family: 'Times New Roman', Times, serif;
-    font-style: inherit;
-    font-weight: 300;
-    font-size: medium;
-    margin-top: 60px;
-    margin-bottom: 0;
-    background: url("IMG_1371.jpeg") no-repeat center center;
-     background-size: cover;      
-     background-repeat: no-repeat;
-     background-position: center; 
-     background-attachment: fixed;
-     margin-left:0;
-     margin-right:0;
-     color: rgb(46, 252, 5);
+  #aboutid {
+    display: flex;
+    align-items: flex-start;   /* top align */
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 40px;
-    border-radius: 10px;
 }
-     
+
+/* Left column: text */
+#aboutid section,
+#aboutid ul {
+    flex: 1;
+}
+
+/* Right column: image */
+#aboutid::after {
+    content: "";
+    flex: 1;
+    background: url("IMG_1371.jpeg") no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    min-height: 500px; /* ensures image is visible */
+}
     
     #form{
     margin-top: 130px;
