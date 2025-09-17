@@ -75,29 +75,15 @@
     
     
   #aboutid {
-    display: flex;
-    align-items: flex-start;   /* top align */
-    justify-content: space-between;
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
-}
-
-
-#aboutid section,
-#aboutid ul {
-    flex: 1;
-}
-
-
-#aboutid::after {
-    content: "";
-    flex: 1;
-    background: url("IMG_1371.jpeg") no-repeat center center;
-    background-size: cover;
-    border-radius: 10px;
-    min-height: 500px; /* ensures image is visible */
+    background-image: url(blur.png) ;  width: 100%;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: none;
+    margin: none;
+    background: rgba(0, 0, 0, 0.5);
 }
 
     #form{
